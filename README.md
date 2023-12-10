@@ -8,4 +8,4 @@ The movie list page shows the list of movies fetching from API from themoviedb.o
 Responsiveness is provided by Tailwindcss
 
 Netlify deploy link
-
+https://week7-movieapp-may.netlify.app
