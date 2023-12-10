@@ -26,13 +26,17 @@ const MovieDetail = () => {
     return <p>Loading...</p>;
   }
 
+  console.log("movie", movie)
+
   return (
-    <div>
-      <Link to="/">Back</Link>
-      <h1>{movie.title}</h1>
-      <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={`${movie.title} Poster`} />
-      <p>{movie.overview}</p>
-      
+    <div className="relative">
+      <img className="absolute inset-0 w-full h-full object-cover blur-lg" src={`https://image.tmdb.org/t/p/w1280${movie.backdrop_path}`} alt={`${movie.title} Background`} />
+      <div className="relative bg-opacity-50 bg-black">
+        <Link to="/">Back</Link>
+        <h1>{movie.title}</h1>
+        <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={`${movie.title} Poster`} />
+        <p>{movie.overview}</p>
+      </div>
     </div>
   );
 };

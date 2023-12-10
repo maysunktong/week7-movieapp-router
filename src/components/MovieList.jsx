@@ -5,7 +5,7 @@ const MovieList = () => {
   const [movies, setMovies] = useState([]);
   const API_KEY = "f101a5c7988ffa0a6d395ce6c25e575b";
   const imgBaseUrl = "https://image.tmdb.org/t/p/";
-  const posterSizeS = "w185";
+  const posterSizeS = "w780";
 
   useEffect(() => {
     const fetchMovies = async () => {
