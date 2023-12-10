@@ -1,8 +1,11 @@
-# React + Vite
+## Goal
+Learn to fetch API and route pages by using React router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Problem & Solutions
+The movie app has two pages: Movie list page nad movie detail page.
+The movie list page shows the list of movies fetching from API from themoviedb.org
+Responsiveness is provided by Tailwindcss
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Netlify deploy link
+

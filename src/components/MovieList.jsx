@@ -51,7 +51,9 @@ const MovieList = () => {
           ))}
         </ul>
       ) : (
-        <p>No movies found. Please check back later.</p>
+        <div className='flex justify-center items-center w-full h-screen'>
+          <p>No movies found. Please check back later.</p>
+        </div>
       )}
     </>
   );

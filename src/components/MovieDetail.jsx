@@ -45,7 +45,7 @@ const MovieDetail = () => {
             <img
               src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
               alt={`${movie.title} Poster`}
-              className='rounded-xl'
+              className='rounded-xl shadow-xl border-2'
             />
           </div>
           <div className="flex flex-col justify-center gap-4 text-white p-8">
