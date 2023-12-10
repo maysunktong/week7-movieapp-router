@@ -43,9 +43,9 @@ const MovieList = () => {
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                 </div>
-                <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h2 className=" text-lg">{movie.title}</h2>
-                  <p>{movie.release_date}</p>
+                <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white font-bold">
+                  <p className=" text-2xl">{movie.title}</p>
+                  <p className='text-lg'>{movie.release_date}</p>
                 </div>
               </Link>
             </li>
