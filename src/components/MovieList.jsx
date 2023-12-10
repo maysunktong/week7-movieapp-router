@@ -28,8 +28,7 @@ const MovieList = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Popular Movies</h1>
+    <>
       {movies.length > 0 ? (
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {movies.map((movie) => (
@@ -54,7 +53,7 @@ const MovieList = () => {
       ) : (
         <p>No movies found. Please check back later.</p>
       )}
-    </div>
+    </>
   );
 };
 
